@@ -61,6 +61,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):
 
     def queue(self, music: Union[list, str]):
         self.player.queue(music)
+# Дальше мусор)
 
     def open_playlists_dialog(self):
         self.dialog = Temp()
