@@ -50,12 +50,25 @@
        </layout>
       </item>
       <item>
-       <widget class="QListView" name="musicList"/>
+       <widget class="QListWidget" name="music_list"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="add_music">
+        <property name="text">
+         <string>Добавить трек</string>
+        </property>
+       </widget>
       </item>
       <item>
        <widget class="QSlider" name="duration">
         <property name="maximum">
          <number>100</number>
+        </property>
+        <property name="pageStep">
+         <number>20</number>
+        </property>
+        <property name="tracking">
+         <bool>true</bool>
         </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
